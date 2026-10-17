@@ -16,6 +16,8 @@ jobs:
         with: { distribution: temurin, java-version: 17 }
       - run: npm install
       - run: npx cap add android
+      - name: Gerar ícone e tela de abertura com a logo
+        run: npx capacitor-assets generate --android --iconBackgroundColor '#080B12' --splashBackgroundColor '#080B12'
       - run: npx cap sync android
       - run: chmod +x gradlew && ./gradlew assembleDebug
         working-directory: android
