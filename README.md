@@ -6,6 +6,8 @@ O app empacota a versão web (`www/index.html`, arquivo único que funciona offl
 
 ## Baixar o APK
 
+**[Baixar Lumpt.apk](https://github.com/MtLeonel/LUMPT-Mobile/releases/download/apk-atual/Lumpt.apk)**, ou abra a página de [Releases](https://github.com/MtLeonel/LUMPT-Mobile/releases/tag/apk-atual) e toque em `Lumpt.apk`.
+
 O APK é gerado automaticamente pelo GitHub Actions a cada push na `main` e fica na branch **`apk`** (arquivo `Lumpt.apk`).
 Para gerar de novo manualmente: aba **Actions** > *Gerar APK do Lumpt* > *Run workflow*.
 
